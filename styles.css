@@ -1,5 +1,101 @@
-h1 {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
   color: blueviolet;
   background-color: aquamarine;
-  height: 50px;
+  width: 100vw;
+  height: 8%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  position: relative;
+  top: 80px;
+  padding-bottom: 10%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.question-card {
+  background-color: brown;
+  justify-content: center;
+  align-content: center;
+  width: 70vw;
+}
+
+footer {
+  color: blueviolet;
+  background-color: lightblue;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  height: 4%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 2vw;
+  margin-left: 2vw;
+}
+
+.button-answer {
+  display: flex;
+  align-content: center;
+  padding: 3vh;
+}
+.button-answer button {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background-color: bisque;
+  font-weight: lighter;
+}
+
+.question {
+  /* padding: 3%; */
+  border: solid black;
+}
+
+.question p {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  text-align: justify;
+  border: solid beige;
+  padding: 5%;
+}
+
+.hashtags {
+  display: flex;
+  flex-direction: row;
+  justify-content: last baseline;
+  gap: 2vw;
+  margin-left: 2vw;
+}
+
+.hashtags span {
+  border: solid black;
+  width: 10%;
+  text-align: center;
+  font-size: smaller;
 }
