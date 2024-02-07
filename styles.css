@@ -23,15 +23,23 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10%;
+  /* padding: 10%; */
   gap: 10px;
   top: 50px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
 }
 
 .question-card {
   background-color: brown;
   justify-content: center;
   align-content: center;
+  width: 70vw;
 }
 
 footer {
@@ -47,4 +55,14 @@ footer {
   text-align: justify;
   position: flex;
   justify-content: space-around;
+}
+
+.button-answer {
+  display: flex;
+  align-content: center;
+  padding: 3vh;
+}
+.button-answer button {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
 }
