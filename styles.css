@@ -12,7 +12,9 @@ header {
   position: fixed;
   top: 0;
   z-index: 9;
-  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
@@ -47,7 +49,7 @@ footer {
   z-index: 9;
 }
 
-.nav-bar {
+/* .nav-bar { */
   text-align: justify;
   position: flex;
   justify-content: space-around;
