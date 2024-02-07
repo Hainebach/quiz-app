@@ -1,3 +1,12 @@
+/* @import url(card.css); */
+:root {
+  --main-color: #eae7dc;
+  --secondary-color: #d8c3a5;
+  --gray-color: #8e8e8e;
+  --color-pale: #e98074;
+  --color-red: #e85a4f;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,8 +14,8 @@
 }
 
 header {
-  color: blueviolet;
-  background-color: aquamarine;
+  color: var(--secondary-color);
+  background-color: var(--gray-color);
   width: 100vw;
   height: 8%;
   position: fixed;
