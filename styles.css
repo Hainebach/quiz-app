@@ -79,3 +79,17 @@ footer {
   transform: translate(-50%, 0);
   text-align: justify;
 }
+
+.hashtags {
+  display: flex;
+  flex-direction: row;
+  justify-content: last baseline;
+  gap: 2vw;
+  margin-left: 2vw;
+}
+
+.hashtags span {
+  border: solid black;
+  width: 8%;
+  text-align: center;
+}
