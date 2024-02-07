@@ -8,9 +8,11 @@ header {
   color: blueviolet;
   background-color: aquamarine;
   width: 100vw;
+  height: 8%;
   position: fixed;
   top: 0;
   z-index: 9;
+  padding-top: 4%;
 }
 
 header h1 {
@@ -19,13 +21,7 @@ header h1 {
 
 main {
   position: relative;
-  /* margin-top: 70px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* padding: 10%; */
-  gap: 10px;
-  top: 50px;
+  top: 15vh;
 }
 
 .card-container {
@@ -70,14 +66,16 @@ footer {
 }
 
 .question {
-  display: flex;
-  padding: 3%;
+  /* padding: 3%; */
+  border: solid black;
 }
 
 .question p {
   margin-left: 50%;
   transform: translate(-50%, 0);
   text-align: justify;
+  border: solid beige;
+  padding: 5%;
 }
 
 .hashtags {
