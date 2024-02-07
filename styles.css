@@ -65,4 +65,17 @@ footer {
 .button-answer button {
   margin-left: 50%;
   transform: translate(-50%, 0);
+  background-color: bisque;
+  font-weight: lighter;
+}
+
+.question {
+  display: flex;
+  padding: 3%;
+}
+
+.question p {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  text-align: justify;
 }
