@@ -39,6 +39,15 @@ main {
   justify-content: center;
   align-content: center;
   width: 70vw;
+  position: relative;
+}
+
+.question-card img {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  width: 20px;
+  background-color: brown;
 }
 
 footer {
@@ -58,6 +67,10 @@ footer {
   display: flex;
   gap: 2vw;
   margin-left: 2vw;
+}
+
+.nav-bar a.active {
+  background-color: blanchedalmond;
 }
 
 .button-answer {
