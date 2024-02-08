@@ -1,0 +1,16 @@
+header {
+  color: var(--secondary-color);
+  background-color: var(--gray-color);
+  width: 100vw;
+  height: 8%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+}
