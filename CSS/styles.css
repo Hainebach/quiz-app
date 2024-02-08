@@ -1,5 +1,4 @@
 @import url(card.css);
-
 @import url(header.css);
 @import url(navigation.css);
 @import url(variables.css);
@@ -75,6 +74,6 @@ main {
   margin-left: 10px;
 }
 
-/* .about-me { */
-  border: solid black;
-}
+/* .about-me {
+  border: solid black; }*/
+
