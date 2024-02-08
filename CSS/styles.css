@@ -1,4 +1,5 @@
 @import url(card.css);
+
 @import url(header.css);
 @import url(navigation.css);
 @import url(variables.css);
@@ -14,6 +15,7 @@
 
 body {
   background-color: var(--color-red);
+
 }
 
 
@@ -23,6 +25,35 @@ main {
   padding-bottom: 10%;
 }
 
+
+
+.profile-info {
+
+  display: flex;
+  padding: 8vw;
+  margin: 2%;
+}
+
+
+.profile-info img {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 100%;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  margin-left: 10px;
+}
+
+
+/* .about-me { */
+  border: solid black;
+
+}
 
 .profile-info {
   display: flex;
