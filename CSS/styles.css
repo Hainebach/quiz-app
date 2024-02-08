@@ -139,3 +139,27 @@ footer {
   text-align: center;
   font-size: smaller;
 }
+
+.profile-info {
+  display: flex;
+  padding: 8vw;
+  margin: 2%;
+}
+
+.profile-info img {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 100%;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  margin-left: 10px;
+}
+
+/* .about-me { */
+  border: solid black;
+}
