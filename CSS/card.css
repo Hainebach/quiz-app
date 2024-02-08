@@ -1,16 +1,20 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 50px;
   align-items: center;
 }
 
 .question-card {
-  background-color: brown;
+  background-color: var(--color-pale);
   justify-content: center;
   align-content: center;
   width: 70vw;
   position: relative;
+}
+
+.question-card:hover {
+  background-color: var(--gray-color);
 }
 
 .question-card img {
@@ -18,5 +22,5 @@
   top: -5px;
   right: 5px;
   width: 20px;
-  background-color: brown;
+  background-color: var(--color-pale);
 }
