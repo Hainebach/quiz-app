@@ -55,6 +55,10 @@ main {
   position: relative;
 }
 
+.question-card:hover {
+  background-color: var(--gray-color);
+}
+
 .question-card img {
   position: absolute;
   top: -5px;
@@ -96,6 +100,14 @@ footer {
   transform: translate(-50%, 0);
   background-color: var(--secondary-color);
   font-weight: lighter;
+  height: 4vh;
+  width: 15vw;
+  text-align: center;
+  font-size: auto;
+}
+
+.button-answer button:hover {
+  background-color: var(--color-red);
 }
 
 .question {
