@@ -1,0 +1,19 @@
+.button-answer {
+  display: flex;
+  align-content: center;
+  padding: 3vh;
+}
+.button-answer button {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background-color: var(--secondary-color);
+  font-weight: lighter;
+  height: 4vh;
+  width: 15vw;
+  text-align: center;
+  font-size: auto;
+}
+
+.button-answer button:hover {
+  background-color: var(--color-red);
+}

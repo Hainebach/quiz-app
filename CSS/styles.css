@@ -1,11 +1,10 @@
-/* @import url(card.css); */
-:root {
-  --main-color: #eae7dc;
-  --secondary-color: #d8c3a5;
-  --gray-color: #8e8e8e;
-  --color-pale: #e98074;
-  --color-red: #e85a4f;
-}
+@import url(card.css);
+@import url(header.css);
+@import url(navigation.css);
+@import url(variables.css);
+@import url(button.css);
+
+
 
 * {
   box-sizing: border-box;
@@ -13,22 +12,10 @@
   padding: 0;
 }
 
-header {
-  color: var(--secondary-color);
-  background-color: var(--gray-color);
-  width: 100vw;
-  height: 8%;
-  position: fixed;
-  top: 0;
-  z-index: 9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  background-color: var(--color-red);
 }
 
-header h1 {
-  text-align: center;
-}
 
 main {
   position: relative;
@@ -36,88 +23,27 @@ main {
   padding-bottom: 10%;
 }
 
-.card-container {
+
+.profile-info {
+  display: flex;
+  padding: 8vw;
+  margin: 2%;
+}
+
+.profile-info img {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 100%;
+}
+
+.names {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-items: center;
-}
-
-.question-card {
-  background-color: brown;
   justify-content: center;
-  align-content: center;
-  width: 70vw;
-  position: relative;
+  gap: 10%;
+  margin-left: 10px;
 }
 
-.question-card img {
-  position: absolute;
-  top: -5px;
-  right: 5px;
-  width: 20px;
-  background-color: brown;
-}
-
-footer {
-  color: blueviolet;
-  background-color: lightblue;
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  z-index: 9;
-  height: 4%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.nav-bar {
-  display: flex;
-  gap: 2vw;
-  margin-left: 2vw;
-}
-
-.nav-bar a.active {
-  background-color: blanchedalmond;
-}
-
-.button-answer {
-  display: flex;
-  align-content: center;
-  padding: 3vh;
-}
-.button-answer button {
-  margin-left: 50%;
-  transform: translate(-50%, 0);
-  background-color: bisque;
-  font-weight: lighter;
-}
-
-.question {
-  /* padding: 3%; */
+/* .about-me { */
   border: solid black;
-}
-
-.question p {
-  margin-left: 50%;
-  transform: translate(-50%, 0);
-  text-align: justify;
-  border: solid beige;
-  padding: 5%;
-}
-
-.hashtags {
-  display: flex;
-  flex-direction: row;
-  justify-content: last baseline;
-  gap: 2vw;
-  margin-left: 2vw;
-}
-
-.hashtags span {
-  border: solid black;
-  width: 10%;
-  text-align: center;
-  font-size: smaller;
 }
