@@ -4,8 +4,6 @@
 @import url(variables.css);
 @import url(button.css);
 
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,9 +12,7 @@
 
 body {
   background-color: var(--color-red);
-
 }
-
 
 main {
   position: relative;
@@ -24,15 +20,11 @@ main {
   padding-bottom: 10%;
 }
 
-
-
 .profile-info {
-
   display: flex;
   padding: 8vw;
   margin: 2%;
 }
-
 
 .profile-info img {
   width: 35vw;
@@ -48,10 +40,9 @@ main {
   margin-left: 10px;
 }
 
-
-/* .about-me { */
+.about-me {
   border: solid black;
-
+  align-self: self-end;
 }
 
 .profile-info {
@@ -76,4 +67,3 @@ main {
 
 /* .about-me {
   border: solid black; }*/
-
