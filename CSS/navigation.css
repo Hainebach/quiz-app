@@ -11,12 +11,12 @@ footer {
   align-items: center;
 }
 
-.nav-bar {
+.footer {
   display: flex;
   gap: 2vw;
   margin-left: 2vw;
 }
 
-.nav-bar a.active {
+.footer a.active {
   background-color: var(--main-color);
 }
